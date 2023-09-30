@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
+
+body {
+  background-color: antiquewhite;
+  font-family: "Gabarito", cursive;
+}
+
+.topic {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  margin: auto !important;
+  display: flex;
+  justify-content: center !important;
+}
+
+.input_box {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.input_box label {
+  font-weight: bold !important;
+  font-size: 20px;
+}
+
+.input_box input {
+  padding: 8px;
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+  font-family: inherit;
+}
+
+.input_box button {
+  width: fit-content;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-family: inherit;
+  background-color: whitesmoke;
+}
+
+.input_box button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.color_boxes {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 280px;
+  text-align: center;
+}
+
+.box h2 {
+  text-transform: uppercase;
+}
